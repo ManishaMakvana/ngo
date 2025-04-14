@@ -1,0 +1,70 @@
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Logo Styling */
+.header-logo {
+    width: 120px;
+    height: auto;
+}
+
+/* Login Button Styling */
+.login-container {
+    margin-right: 20px;
+}
+
+.login-button {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Welcome Text Styling */
+.welcome-text {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.welcome-text h1 {
+    font-size: 32px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ff4500;
+    font-weight: bold;
+}
